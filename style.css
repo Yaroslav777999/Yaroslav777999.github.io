@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    background-image: url(/img/bg.jpg);
+    background-size: cover;
+}
+
+.text {
+    width: 900px;
+    margin: 90px 0 0 90px;
+    /* font-family: 'FontName'; */
+    font-size: 40px;
+    color: #552935;
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+.container {
+    width: auto;
+    max-width: 100%;
+    min-height: 1000px;
+
+}
+
+.inputs {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px 30px 20px;
+}
+
+.label {
+    color: #552935;
+    font-weight: 600;
+}
+
+.input {
+    display: block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #bdbdbd;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    margin: 0 15px 0 0;
+}
+
+.top-text {
+    display: flex;
+    justify-content: center;
+    color: #552935;
+    font-size: 50px;
+    font-family: 'FontName';
+}
+
+.midl-text {
+    display: flex;
+    margin-left: 20px;
+    color: #552935;
+    font-size: 20px;
+    font-family: 'FontName';
+
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-create {
+    margin: 50px 150px 0 150px;
+    width: 250px;
+    height: 100px;
+    font-size: 20px;
+    color: #552935;
+    font-family: 'FontName';
+}
+
+.btn-change {
+    margin: 50px 150px 0 150px;
+    width: 250px;
+    height: 100px;
+    font-size: 20px;
+    color: #552935;
+    font-family: 'FontName';
+}
+
+@font-face {
+    font-family: 'FontName';
+    src: url(/fonts/16831.ttf);
+}
