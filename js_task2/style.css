@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+}
+
+.wrp {
+    height: 100vh;
+        width: 100%;
+    background-image: url(./img/img.jpg);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    background-size: cover;
+    padding: 50px 0 0 70px;
+
+    
+}
+
+small {
+    font-family: 'EBENYA';   
+
+    color: grey;
+    font-size: 15px;
+}
+.input {
+    
+    font-family: 'EBENYA';
+  width: 30%;
+  border: 0;
+  border-bottom: 2px solid gray;
+  outline: 0;
+  font-size: 1.3rem;
+  color: white;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+
+.btn {
+    font-family: 'EBENYA';
+    color: gray;
+}
+
+@font-face {
+    font-family: 'EBENYA';   
+    src: url(./fonts/KarloCham-Brush.otf);
+}
